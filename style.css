@@ -1,0 +1,114 @@
+:root {
+	font-size: 16px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0f0d13;
+}
+
+img {
+	width: 100%;
+	border-radius: 6px;
+}
+
+.bigContainer {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-areas:
+		"l1 l2"
+		"l1 l3";
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	gap: 32px;
+}
+
+.container {
+	background-color: red;
+	background-color: #2a2141;
+	border-radius: 9.6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 28.81px;
+}
+
+.layout1 {
+	height: 100%;
+	grid-area: l1;
+	padding: 38.41px 38.41px;
+}
+.layout2 {
+	grid-area: l2;
+	padding: 28.41px 28.41px;
+}
+
+.layout3 {
+	grid-area: l3;
+	padding: 28.41px 28.41px;
+}
+
+.flex-panel {
+	display: flex;
+	align-items: center;
+	gap: 28.81px;
+}
+
+.flex-panel img {
+	width: 84.01px;
+}
+
+.musicName-font {
+	color: #e1e1e6;
+	font-size: 24.01px;
+	/* margin-bottom: 9.6px; */
+}
+
+.musicGroup-font {
+	color: #e1e1e6;
+	font-size: 19.21px;
+	opacity: 0.67;
+}
+
+.musicImg {
+}
+
+.musicButtons {
+	width: 100%;
+	display: flex;
+	gap: 50.42px;
+	align-items: center;
+	justify-content: center;
+}
+.musicbutton {
+	width: 28.81px;
+	height: 28.81px;
+	cursor: pointer;
+}
+
+.musicTime .bar {
+	height: 6px;
+	width: 100%;
+	background-color: #d9d9d9;
+	border-radius: 9.6px;
+	margin-bottom: 9.6px;
+}
+
+.musicTime .time {
+	color: #c4c4cc;
+	font-size: 14.4px;
+	display: flex;
+	justify-content: space-between;
+}
