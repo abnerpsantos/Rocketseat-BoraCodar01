@@ -9,7 +9,7 @@ Um player de música feito com HTML e CSS, utilizando flexbox e grid para dispos
 
 [Layout no figma](https://www.figma.com/file/GvUazsSGNVwU1IpiplWgdZ/%23boraCodar---Desafio-1?node-id=0%3A1&t=1pPhd1Kv4Q1An5L3-0)
 
-[Print do Layout](img/boraCodar#1.png)
+![Print do Layout](./img/boraCodar.png)
 
 ## Melhorias
 
